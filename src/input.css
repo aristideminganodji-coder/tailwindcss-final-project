@@ -62,3 +62,12 @@ h3 {
 .popular_card:hover img {
     @apply -top-8;
 }
+
+/* Review  */
+.swiper-pagination-bullet {
+    @apply bg-green-500 h-3 w-3;
+}
+
+.swiper-pagination {
+    @apply static mt-6;
+}
