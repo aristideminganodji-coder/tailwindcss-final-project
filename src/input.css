@@ -1,1 +1,84 @@
+/* google font link */
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Lobster&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@config "../tailwind.config.js";
 @import "tailwindcss";
+
+/* Scroll Up */
+html {
+    @apply overflow-x-hidden scroll-smooth;
+}
+
+body{
+    @apply bg-green-950 text-white font-Jost tracking-wider;
+}
+
+/* Header */
+.nav-link{
+    @apply text-lg font-bold duration-300;
+}
+
+.nav-link:hover{
+    @apply text-yellow-500;
+}
+
+/* Active */
+.active {
+    @apply text-yellow-500;
+}
+
+section {
+    @apply py-20 md:py-28;
+}
+
+h1 {
+    @apply text-3xl md:text-4xl xl:text-5xl font-bold;
+}
+ 
+/* Button */
+.btn {
+    @apply border border-yellow-500 bg-yellow-500 rounded-md duration-300 py-2 px-4 cursor-pointer;
+}
+
+.btn span {
+    @apply font-bold;
+}
+
+.btn:hover {
+    @apply opacity-90;
+}
+
+.btn_outline {
+    @apply bg-transparent;
+}
+
+.btn_outline:hover{
+    @apply bg-yellow-500;
+}
+
+/* About Us */
+.title {
+    @apply font-Lobster text-yellow-500;
+}
+
+h2 {
+    @apply text-2xl md:text-3xl xl:text-4xl;
+}
+
+h3 {
+    @apply text-xl md:text-2xl xl:text-3xl;
+}
+
+/* popular */
+.popular_card:hover img {
+    @apply -top-8;
+}
+
+/* Review  */
+.swiper-pagination-bullet {
+    @apply bg-green-500 h-3 w-3;
+}
+
+.swiper-pagination {
+    @apply static mt-6;
+}
