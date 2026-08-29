@@ -13,11 +13,17 @@ body{
     @apply bg-green-950 text-white font-Jost tracking-wider;
 }
 
+/* Header */
 .nav-link{
     @apply text-lg font-bold duration-300;
 }
 
 .nav-link:hover{
+    @apply text-yellow-500;
+}
+
+/* Active */
+.active {
     @apply text-yellow-500;
 }
 
